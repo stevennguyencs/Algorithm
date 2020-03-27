@@ -28,7 +28,7 @@ class Graph:
 		node.next = self.graph[dest] 
 		self.graph[dest] = node 
 
-	# Function to print the graph 
+
 	def print_graph(self): 
 		for i in range(self.V): 
 			print("Adjacency list of vertex {}\n head".format(i), end="") 
