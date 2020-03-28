@@ -31,8 +31,7 @@ class Graph:
 			if self.tc[s][i]==0: 
 				self.DFSUtil(s,i) 
 
-	# The function to find transitive closure. It uses 
-	# recursive DFSUtil() 
+
 	def transitiveClosure(self): 
 
 		# Call the recursive helper function to print DFS 
